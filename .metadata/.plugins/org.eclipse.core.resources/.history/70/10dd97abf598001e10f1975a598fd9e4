@@ -1,0 +1,16 @@
+package Trail;
+
+import java.util.Arrays;
+
+//find the character of arrays
+public class Array_count {
+
+	public static void main(String[] args) {
+		int arr[] = {2,3,4,5,8};
+		int[] array = Arrays.stream(arr).map(s->(s%2==0)?s*s:s).toArray();
+		
+		System.out.println("input arrays"+arr);
+		System.out.println("output array "+ array;
+				
+	}
+}

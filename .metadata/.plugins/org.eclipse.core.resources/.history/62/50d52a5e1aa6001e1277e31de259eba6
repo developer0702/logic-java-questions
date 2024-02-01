@@ -1,0 +1,10 @@
+package chunk_questions;
+
+public class ChunkArrayStream {
+	public static void main(String[] args) {
+		
+		int n=50;
+		//print in chunk
+	}
+		
+}

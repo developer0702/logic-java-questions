@@ -1,0 +1,19 @@
+package chunk_questions;
+
+import java.util.Arrays;
+
+public class Chunk_new {
+
+    public static void main(String[] args) {
+        // Assuming the input array is from 2 to 50
+        int[] original = new int[49];
+        for (int i = 0; i < original.length; i++) {
+            original[i] = i + 2;
+        }
+
+        int chunk = 3; // chunk size to divide
+        for (int i = 0; i < original.length; i += chunk) {
+            System.out.println(Arrays.toString(Arrays.copyOfRange(original, i, Math.min(original.length, i + chunk))));
+        }
+    }
+}

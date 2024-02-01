@@ -1,0 +1,18 @@
+package trail;
+
+public class ValidateString1 {
+	public static void main(String[] args) {
+		String str = "(){}[]";
+		boolean status=isValidString(str);
+		if (status) {
+			System.out.println("validated string");
+		}else {
+			System.out.println("not validated");
+		}
+	}
+	
+	private static boolean isValidString(String s) {
+		return false;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package trail;
+
+public class C {
+
+	public static void main(String[] args) {
+		int arr1[] = { 2, 3, 4, 56, 33 };
+		int arr2[] = { 11, 21, 34, 21, 42 };
+
+		int merge = arr1.length + arr2.length;
+		int resultantArray[] = new int[merge];
+
+		for (int i = 0; i < arr1.length; i++) {
+			resultantArray[i]=arr1[i];
+		}
+		for (int i = 0; i < arr2.length; i++) {
+			
+		}
+	}
+}

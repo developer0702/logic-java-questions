@@ -1,0 +1,27 @@
+package trail;
+
+import java.util.Stack;
+
+public class ValidateString1 {
+	public static void main(String[] args) {
+		String str = "(){}[]";
+		boolean status=isValidString(str);
+		if (status) {
+			System.out.println("validated string");
+		}else {
+			System.out.println("not validated");
+		}
+	}
+	
+	private static boolean isValidString(String s) {
+		
+		Stack<Character> stack = new  Stack<>();
+		for (int i = 0; i <s.length(); i++) {
+			char ch = s.charAt(i);
+			
+			
+		}
+		return false;
+	}
+	
+}

@@ -1,0 +1,9 @@
+package trail;
+
+public class ValidateString1 {
+	public static void main(String[] args) {
+		String str = "(){}[]";
+		
+	}
+	
+}
